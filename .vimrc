@@ -17,6 +17,11 @@ Plugin 'Xuyuanp/nerdtree-git-plugin'
 
 set number
 
+if exists('$TMUX')
+  set term=screen-256color
+endif
+
+
 " default
 execute pathogen#infect()
 syntax on
