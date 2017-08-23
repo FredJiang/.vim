@@ -1,3 +1,16 @@
 #! /bin/bash
 
-# git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+echo 'cd ~/.vim'
+cd ~/.vim
+
+
+echo 'git submodule init'
+git submodule init
+
+
+echo 'git submodule update'
+git submodule update
+
+
+echo 'cp .vimrc ~/.vimrc'
+cp .vimrc ~/.vimrc
