@@ -14,3 +14,4 @@ git submodule update
 
 echo 'cp .vimrc ~/.vimrc'
 cp .vimrc ~/.vimrc
+
