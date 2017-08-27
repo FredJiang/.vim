@@ -23,6 +23,7 @@ if exists('$TMUX')
   set term=screen-256color
 endif
 
+let g:airline_powerline_fonts = 1
 
 " default
 execute pathogen#infect()
