@@ -24,6 +24,7 @@ if exists('$TMUX')
 endif
 
 let g:airline_powerline_fonts = 1
+set laststatus=2
 
 " default
 execute pathogen#infect()
