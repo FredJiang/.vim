@@ -19,6 +19,10 @@ Plugin 'vim-airline/vim-airline-themes'
 
 set number
 
+set mouse=a
+
+set pastetoggle=<F2>
+
 if exists('$TMUX')
   set term=screen-256color
 endif
