@@ -19,7 +19,7 @@ Plugin 'vim-airline/vim-airline-themes'
 
 set number
 
-set mouse=a
+" set mouse=a
 
 set pastetoggle=<F2>
 
