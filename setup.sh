@@ -1,28 +1,35 @@
 #! /bin/bash
 
 
-echo 'git pull'
-git pull
+function echoCo {
+    echo -e "\033[32m$@\033[0m"
+}
 
 
-
-echo 'git submodule init'
-git submodule init
-
-
-
-echo 'git submodule update'
-git submodule update
+function echoMe {
+    echo -e "\033[35m$@\033[0m"
+}
 
 
-
-echo 'cd ~/.vim'
-cd ~/.vim
-
+echoCo 'git pull'
+        git pull
 
 
+echoCo 'git submodule init'
+        git submodule init
 
-echo 'cp .vimrc ~/.vimrc'
-cp .vimrc ~/.vimrc
 
-vim +PluginInstall +qall
+echoCo 'git submodule update'
+        git submodule update
+
+
+echoCo 'cd ~/.vim'
+        cd ~/.vim
+
+
+echoCo 'cp .vimrc ~/.vimrc'
+        cp .vimrc ~/.vimrc
+
+
+echoCo 'vim +PluginInstall +qall'
+        vim +PluginInstall +qall
