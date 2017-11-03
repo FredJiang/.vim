@@ -19,6 +19,9 @@ Plugin 'vim-airline/vim-airline-themes'
 
 Plugin 'godoctor/godoctor.vim'
 
+Plugin 'Valloric/YouCompleteMe'
+
+
 set number
 
 " set mouse=a
