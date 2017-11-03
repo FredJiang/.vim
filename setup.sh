@@ -100,6 +100,7 @@ case "$OSTYPE" in
   linux*)
     echoMe "LINUX"
     echoWa 'run me'
+    echoWa 'cd ~/.vim/bundle/YouCompleteMe && git submodule update --init --recursive'
     echoWa 'cd ~/.vim/bundle/YouCompleteMe && ~/.vim/bundle/YouCompleteMe/install.py --clang-completer'
     ;;
   bsd*) 
