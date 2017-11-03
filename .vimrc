@@ -21,8 +21,16 @@ Plugin 'godoctor/godoctor.vim'
 
 Plugin 'Valloric/YouCompleteMe'
 
+Plugin 'Yggdroot/indentLine'
+Plugin 'scrooloose/syntastic'
 
 set number
+
+" set list lcs=tab:\»\ 
+" set list lcs=space:· 
+
+let g:indentLine_char='┆'
+let g:indentLine_enabled = 1
 
 " set mouse=a
 

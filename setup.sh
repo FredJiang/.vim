@@ -88,6 +88,8 @@ echoCo 'vim +PluginInstall +qall'
         vim +PluginInstall +qall
 
 
+echoCo 'cd ~/.vim/bundle/YouCompleteMe && git submodule update --init --recursive'
+        cd ~/.vim/bundle/YouCompleteMe && git submodule update --init --recursive
 case "$OSTYPE" in
   solaris*)
     echoMe "SOLARIS"
@@ -95,12 +97,11 @@ case "$OSTYPE" in
   darwin*)
     echoMe "OSX"
     echoWa 'run me'
-    echoWa 'cd ~/.vim/bundle/YouCompleteMe && ~/.vim/bundle/YouCompleteMe/install.py'
+    echoWa 'cd ~/.vim/bundle/YouCompleteMe && ~/.vim/bundle/YouCompleteMe/install.py --clang-completer'
     ;; 
   linux*)
     echoMe "LINUX"
     echoWa 'run me'
-    echoWa 'cd ~/.vim/bundle/YouCompleteMe && git submodule update --init --recursive'
     echoWa 'cd ~/.vim/bundle/YouCompleteMe && ~/.vim/bundle/YouCompleteMe/install.py --clang-completer'
     ;;
   bsd*) 
