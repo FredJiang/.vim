@@ -2,11 +2,11 @@ set nocompatible              " be iMproved, required
 filetype off                  " required
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
+
+" let Vundle manage Vundle, required
 Plugin 'VundleVim/Vundle.vim'
-call vundle#end()            " required
-filetype plugin indent on    " required
 
-
+" Plugins
 Plugin 'scrooloose/nerdtree'
 Plugin 'Xuyuanp/nerdtree-git-plugin'
 Plugin 'vim-airline/vim-airline'
@@ -15,6 +15,10 @@ Plugin 'godoctor/godoctor.vim'
 Plugin 'Valloric/YouCompleteMe'
 Plugin 'Yggdroot/indentLine'
 Plugin 'scrooloose/syntastic'
+Plugin 'Raimondi/delimitMate'
+
+call vundle#end()            " required
+filetype plugin indent on    " required
 
 
 let g:indentLine_char='┆'
