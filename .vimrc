@@ -25,12 +25,13 @@ let g:indentLine_char='┆'
 let g:indentLine_enabled=1
 
 
-" set list lcs=space:· 
-" set list lcs=tab:\»\ 
+
 " set mouse=a
 set number
 set pastetoggle=<F2>
 set laststatus=2
+set list lcs=tab:\»\ ,space:· 
+highlight SpecialKey ctermfg=8
 
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
