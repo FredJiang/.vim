@@ -25,7 +25,6 @@ let g:indentLine_char='┆'
 let g:indentLine_enabled=1
 
 
-
 " set mouse=a
 set number
 set pastetoggle=<F2>
