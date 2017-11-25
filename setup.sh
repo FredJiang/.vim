@@ -43,16 +43,16 @@ case "$OSTYPE" in
 esac
 
 
-echoCo 'git pull'
-        git pull
+# echoCo 'git pull'
+#         git pull
 
 
-echoCo 'git submodule init'
-        git submodule init
+# echoCo 'git submodule init'
+#         git submodule init
 
 
-echoCo 'git submodule update'
-        git submodule update
+# echoCo 'git submodule update'
+#         git submodule update
 
 
 function install_cmake {
