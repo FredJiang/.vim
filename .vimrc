@@ -43,6 +43,10 @@ let g:airline_powerline_fonts=1
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Plugin 'scrooloose/nerdtree'
 map <F8> :NERDTreeToggle<CR>
+" enable line numbers
+let NERDTreeShowLineNumbers=1
+" make sure relative line numbers are used
+autocmd FileType nerdtree setlocal relativenumber
 
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
