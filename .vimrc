@@ -16,6 +16,7 @@ Plugin 'Valloric/YouCompleteMe'
 Plugin 'Yggdroot/indentLine'
 Plugin 'scrooloose/syntastic'
 Plugin 'Raimondi/delimitMate'
+Plugin 'terryma/vim-multiple-cursors'
 
 call vundle#end()            " required
 filetype plugin indent on    " required
