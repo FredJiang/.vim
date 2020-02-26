@@ -28,6 +28,7 @@ let g:indentLine_enabled=1
 
 " set mouse=a
 set number
+set paste 
 set pastetoggle=<F2>
 set laststatus=2
 set list lcs=tab:\»\ ,space:· 

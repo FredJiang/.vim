@@ -98,11 +98,15 @@ case "$OSTYPE" in
     echoMe "OSX"
     echoWa 'run me'
     echoWa 'cd ~/.vim/bundle/YouCompleteMe && ~/.vim/bundle/YouCompleteMe/install.py --clang-completer'
+    echoWa 'cd ~/.vim/bundle/YouCompleteMe && ~/.vim/bundle/YouCompleteMe/install.py --java-completer'
+    echoWa 'cd ~/.vim/bundle/YouCompleteMe && ~/.vim/bundle/YouCompleteMe/install.py --all'
     ;; 
   linux*)
     echoMe "LINUX"
     echoWa 'run me'
     echoWa 'cd ~/.vim/bundle/YouCompleteMe && ~/.vim/bundle/YouCompleteMe/install.py --clang-completer'
+    echoWa 'cd ~/.vim/bundle/YouCompleteMe && ~/.vim/bundle/YouCompleteMe/install.py --java-completer'
+    echoWa 'cd ~/.vim/bundle/YouCompleteMe && ~/.vim/bundle/YouCompleteMe/install.py --all'
     ;;
   bsd*) 
     echoMe "BSD"
